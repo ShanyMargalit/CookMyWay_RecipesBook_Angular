@@ -1,0 +1,9 @@
+<div class="sticky" id="floatingDiv">
+        <p *ngIf="counterGreaterThanZero" id="date" class="static">{{currentDate| date: 'dd/MM/yyyy' }}</p>
+        <p *ngIf="counterGreaterThanZero" class="static">Average entrances to recipes: {{counter$ | async}}</p>
+        <p *ngIf="counterGreaterThanZero===false" class="static">No one was here today!! are you ready to cook⁉</p>
+        <p *ngIf="counterGreaterThanZero" class="static">your favorites is:{{ (Favorites$ | async)?.length }}</p>
+</div>
+   
+
+

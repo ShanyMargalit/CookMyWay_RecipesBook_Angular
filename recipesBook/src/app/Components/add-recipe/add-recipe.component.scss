@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-size: cover;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-photo/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction_1258-70913.jpg?t=st=1710348298~exp=1710351898~hmac=243be89891729da047cf2e1fd7b80be3b4a0b40462876e6a32b7149fbd67c191&w=1380');
+    border-radius: 10px;
+    opacity: 0.85;
+    font-family: 'Lobster', cursive;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.field:focus {
+    border-color: rgb(167, 123, 75);
+}
+#heart{
+    text-align: center;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    background-color:rgb(254, 59, 59);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

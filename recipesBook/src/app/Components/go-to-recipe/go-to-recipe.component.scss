@@ -1,0 +1,54 @@
+/* General styles */
+.recipe-container {
+    margin: 50px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+}
+
+.recipe-details {
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+/* Styles for individual recipe details */
+.recipe-details h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.recipe-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.recipe-details ul {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.recipe-details li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Heart icon style */
+.favorite-heart {
+    color: red;
+    cursor: pointer;
+}
+
+/* Background image style */
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5); /* Adjust brightness as needed */
+}
