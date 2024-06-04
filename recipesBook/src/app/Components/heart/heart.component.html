@@ -1,0 +1,6 @@
+
+<div class='large-font text-center top-20' >
+    <div  *ngIf="isLiked" (click)="toggleLike($event)">💕</div>
+      <div  *ngIf="!isLiked" (click)="toggleLike($event)">🤍</div>
+      <div class='red-bg'></div>
+</div>

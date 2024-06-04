@@ -1,0 +1,10 @@
+<div class="outerFrame" *ngFor="let r of recipes$  | async">
+        <div class="recipeBox">
+                <a class="name" [routerLink]="['/GoToRecipe',r.name]" (click)="addToCounter()">{{r.name}}</a>
+                <div [ngClass]="{'difficulty-icon green':r.level===1,'difficulty-icon yellow':r.level===2,'difficulty-icon orange':r.level===3}"></div>
+                <div (click)="DeleteRecipe(r)" class="deleteSet">🗑delete</div>
+                <div class="deleteSet">🖊set</div><br>
+                <app-heart (changeLikeEvent)="changeFavorite(r)" [recipe1]=r ></app-heart>
+                <!-- בעקרון צריך לעשות פה לפי רמות -->
+        </div>
+</div>

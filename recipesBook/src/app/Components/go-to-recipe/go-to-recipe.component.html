@@ -1,0 +1,15 @@
+<div class="recipe-container">
+   <div class="recipe-details">
+       <h2>Name: {{searchedRecipe.name}}</h2>
+       <app-heart (changeLikeEvent)="changeFavorite(searchedRecipe)" [recipe1]="searchedRecipe" class="favorite-heart"></app-heart>
+       <p>Level: {{searchedRecipe.level}}</p>
+       <h2>Ingredients:</h2>
+       <ul>
+           <li *ngFor="let ingredient of searchedRecipe.ingredients">{{ingredient}}</li>
+       </ul>
+       <h2>Instructions:</h2>
+       <ul>
+           <li *ngFor="let instruction of searchedRecipe.instructions">{{instruction}}</li>
+       </ul>
+   </div>
+</div>

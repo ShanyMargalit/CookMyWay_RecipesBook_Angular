@@ -1,0 +1,51 @@
+.outerFrame {
+    display: inline-block;
+	overflow: hidden; 
+}
+
+// .level1{
+//     background-color: aqua;
+// }
+// .level2{
+//     background-color: aqua;
+// }
+// .level3{
+//     background-color: aqua;
+// }
+// .fullHeart{
+//     background-color: aqua;
+// }
+
+.recipeBox{
+	height: 18vh;
+	width: 20vw;
+	background-image: url('https://img.freepik.com/free-photo/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction_1258-70913.jpg?t=st=1710348298~exp=1710351898~hmac=243be89891729da047cf2e1fd7b80be3b4a0b40462876e6a32b7149fbd67c191&w=1380');
+	border: solid 8px black;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	transition: width 0.3s, height 0.3s;
+}
+.recipeBox:hover{
+	background-color:gray;
+	opacity: 0.7;
+	height:19vh ;
+	width:21vw ;
+}
+.name{
+	//text-decoration: none;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+.deleteSet{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+
+
